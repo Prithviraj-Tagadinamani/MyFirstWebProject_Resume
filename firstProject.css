@@ -1,0 +1,165 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.flexcontainer{
+    height: 842px;
+    width: 700px;
+    padding: 1em;
+    /* border: 10px solid black; */
+    display: flex;
+}
+#boxleft{
+    padding-left: 0.5em;
+    position: relative;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -.5em -.5em 4em rgb(167, 161, 161);
+    
+}
+#boxright{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0em -0.5em 4em rgb(167, 161, 161);
+}
+#boxleft1{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    background-color: rgb(184, 218, 247);
+    display: flex;
+justify-content: center;
+}
+img{
+    position: relativa;
+    height: 90%;
+    width: 60%;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+#boxleft2{
+    position: relative;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(184, 218, 247);    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+#contact{
+    align-self: center;
+   padding-left: 1em;
+}
+.contacts{
+    padding-left: 25em;
+
+}
+h4{
+    padding-left: 2em;
+    display: inline-block;
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 70%;
+}
+#boxleft3{
+    position: relative;
+    height: 25%;
+    width: 100%;
+    background-color: rgb(184, 218, 247);    display: flex;
+    flex-direction: column;
+}
+#education{
+    align-self: center;
+    padding-left: 1em;
+}
+.educations{
+    padding-left :20em;  ;
+}
+#boxleft4{
+    position: relative;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(184, 218, 247);    display: flex;
+    flex-direction: column;
+}
+#skill{
+    align-self: center;
+    padding-left: 1em;
+}
+.skills{
+    padding-left: 3em;
+}
+li{
+    margin: 0;
+    font-size: 2px; 
+}
+#boxright1{
+    position: relative;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#name{
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: rgb(78, 57, 57);
+    color: rgb(255, 255, 255);
+}
+h2{
+    margin-bottom: 0;
+}
+h3{
+    padding: 0;
+    margin-top: .5em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+#boxright2{
+    position: relative;
+    height:17%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#profile{
+   padding-left: 1.5em;
+}
+#profiles{
+    padding: 0 15em;
+}
+h5{
+    margin: 0;
+    background-color: white;
+    padding: 1em 0px;
+}
+#boxright3{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+#experience{
+    padding-left: 1.5em;
+}
+.experiences{
+    padding: 0 15em;
+}
+.experienceBullets{
+    padding-left: 2.5em;
+}
+p{
+    margin: 0;
+    font-size: 0.1em;
+
+}
